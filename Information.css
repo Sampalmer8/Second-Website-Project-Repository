@@ -1,0 +1,71 @@
+.page-links {
+    text-align: center;
+}
+
+html {
+    background: url("Images/Background-photo.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    width: 800px;
+    padding: 25px 75px 50px;
+    margin: auto;
+}
+
+div {
+    background-color: rgb(138, 43, 226, 0.5);
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+      
+a:hover {
+    text-decoration: underline;
+    color: rgb(16, 134, 173);
+}
+
+.quiz-link {
+    margin-left: 20px;
+}
+
+.home {
+    margin-right: 20px;
+}
+
+.quiz-body {
+    background-color: rgba(201, 88, 230, 0.8);
+    padding: 50px 50px;
+}
+
+div {
+    background-color: rgb(138, 43, 226, 0.5);
+    border: 2px solid black;
+}
+
+.component-description {
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.component-name {
+    margin-left: 25px;
+}
+
+.component-image {
+    text-align: center;
+}
+
+.quiz {
+    text-align: center;
+    font-size: 20px;
+}

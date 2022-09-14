@@ -1,0 +1,73 @@
+html {
+    background: url("Images/Background-photo.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    width: 800px;
+    padding: 25px 75px 50px;
+    margin: auto;
+}
+
+div {
+    background-color: rgb(138, 43, 226, 0.5);
+    border: 2px solid black;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+      }
+      
+a:hover {
+    text-decoration: underline;
+    color: rgb(16, 134, 173);
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    font-variant: small-caps;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+.quiz {
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.answer {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.question {
+    font-size: 20px;
+}
+
+.quiz-body {
+    background-color: rgba(201, 88, 230, 0.8);
+    padding: 50px 50px;
+}
+
+.page-links {
+    text-align: center;
+}
+
+.Quiz {
+    margin-left: 20px;
+}
+
+.home {
+    margin-right: 20px;
+}
