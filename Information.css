@@ -16,6 +16,7 @@ body {
 div {
     background-color: rgb(138, 43, 226, 0.5);
     border: 2px solid black;
+    border-radius: 15px;
 }
 
 h1 {
@@ -28,8 +29,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
       
 a:hover {
     text-decoration: underline;
