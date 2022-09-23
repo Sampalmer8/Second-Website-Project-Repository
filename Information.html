@@ -11,27 +11,14 @@
   </head>
   <body>
     <div class="quiz-body">
-      <p class="page-links">
-        <a class="home" href="index.html">Home</a>
-        <a href="Information.html">Information</a>
-        <a class="quiz-link" href="Quiz.html">Quiz</a>
-      </p>
-
-      <form action="#">
-        <label for="pages">Select Page:</label>
-        <select name="page-links" id="page">
-          <option value="home">
-            <a class="home" href="index.html">Home</a>
-          </option>
-          <option value="information">
-            <a href="Information.html">Information</a>
-          </option>
-          <option value="quiz">
-            <a class="quiz" href="Quiz.html">Quiz</a>
-          </option>
-        </select>
-        <button class="dropdown">Submit</button>
-      </form>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Page:</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a class="drpdwnLink" href="index.html">Home</a>
+          <a class="drpdwnLink" href="Information.html">Information</a>
+          <a class="drpdwnLink" href="Quiz.html">Quiz</a>
+        </div>
+      </div>
 
       <h1>What Do They Do?</h1>
 

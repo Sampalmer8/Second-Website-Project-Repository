@@ -15,7 +15,7 @@ body {
 
 div {
     background-color: rgb(255, 255, 255, 0.4);
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 15px;
 }
 
@@ -58,46 +58,4 @@ h2 {
 
 .quiz-body {
     padding: 50px 50px;
-}
-
-label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    font-family: cursive, sans-serif;
-    font-size: 20px;
-}
-
-select {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-family: cursive, sans-serif;
-    outline: 0;
-    background: #d025d6;
-    color: #fff;
-    border: 1px solid crimson;
-    padding: 4px;
-    border-radius: 9px;
-}
-
-form {
-    margin: auto;
-    text-align: center;
-}
-
-.dropdown {
-    margin-left: 20px;
-    background: #d025d6;
-    color: white;
-    padding: 5px 15px;
-    font-family: cursive, sans-serif;
-    border-radius: 9px;
-    border: 1px solid crimson;
-    margin: auto;
-}
-
-.dropdown:hover {
-    background: #f450fa;
-    cursor: pointer;
 }
