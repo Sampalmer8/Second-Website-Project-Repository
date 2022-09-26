@@ -14,14 +14,14 @@ body {
 }
 
 div {
-    background-color: rgb(138, 43, 226, 0.5);
+    background-color: rgba(43, 150, 221, 0.5);
     border: 2px solid black;
     border-radius: 15px;
 }
 
 h1 {
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: cursive;
 }
 
 a {
@@ -46,7 +46,7 @@ a:hover {
 }
 
 .quiz-body {
-    background-color: rgba(201, 88, 230, 0.8);
+    background-color: rgba(51, 179, 238, 0.8);
     padding: 50px 50px;
 }
 
@@ -73,4 +73,39 @@ div {
 .quiz {
     text-align: center;
     font-size: 20px;
+}
+
+.cpu {
+    color: blue;
+    margin-left: 25px;
+}
+
+.gpu {
+    color: greenyellow;
+    margin-left: 25px;
+}
+
+.motherboard {
+    color: red;
+    margin-left: 25px;
+}
+
+.ram {
+    color: yellow;
+    margin-left: 25px;
+}
+
+.psu {
+    color: pink;
+    margin-left: 25px;
+}
+
+.ssd {
+    color: silver;
+    margin-left: 25px;
+}
+
+.cooler {
+    color: orangered;
+    margin-left: 25px;
 }
