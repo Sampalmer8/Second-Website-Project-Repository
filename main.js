@@ -15,8 +15,30 @@ function myFunction() {
         }
       }
     }
-  }
+}
+
 // QUIZ JAVASCRIPT
 // QUIZ JAVASCRIPT
 // QUIZ JAVASCRIPT
 // QUIZ JAVASCRIPT
+document.getElementById("btn").addEventListener("click", btnClicked);
+
+
+
+function btnClicked() {
+  // Input
+  let question1 = document.getElementById("answer1").toLowerCase();
+  let question2 = document.getElementById("answer2").toLowerCase();
+  let question3 = document.getElementById("answer3").toLowerCase();
+  let question4 = document.getElementById("answer4");
+  let question5 = document.getElementById("answer5");
+
+  // If statements
+  if (question5 == )
+  // Process
+  let percentage = ()
+
+  // Output
+  document.getElementById("score").innerHTML = score;
+  document.getElementById("percentage").innerHTML = perentage;
+}
