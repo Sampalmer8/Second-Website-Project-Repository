@@ -30,15 +30,13 @@ function btnClicked() {
   let question1 = document.getElementById("answer1").toLowerCase();
   let question2 = document.getElementById("answer2").toLowerCase();
   let question3 = document.getElementById("answer3").toLowerCase();
-  let question4 = document.getElementById("answer4");
-  let question5 = document.getElementById("answer5");
+  let question4 = document.getElementById("answer4").toLowerCase();
+  let question5 = document.getElementById("answer5").toLowerCase();
 
   // If statements
-  if (question5 == )
+
   // Process
-  let percentage = ()
+
 
   // Output
-  document.getElementById("score").innerHTML = score;
-  document.getElementById("percentage").innerHTML = perentage;
 }
